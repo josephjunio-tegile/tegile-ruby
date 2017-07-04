@@ -27,9 +27,9 @@ api_instance = IFClient::DataApi.new
 
 #Set volume params
 new_vol = IFClient::VolumeV10.new
-new_vol.name = "vol4"
+new_vol.name = "vol1"
 new_vol.pool_name = "pool-a"
-new_vol.project_name = "vol-project"
+new_vol.project_name = "volume-project"
 new_vol.protocol = "iSCSI"
 new_vol.vol_size = 10737418240
 new_vol.block_size = IFClient::BlockSizeEnum::N32_KB

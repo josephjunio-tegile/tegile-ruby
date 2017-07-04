@@ -43,7 +43,7 @@ new_share_permission.share_permission_mode = IFClient::PermissionTypeEnum::N0
 create_share_param = IFClient::CreateShareParam.new
 create_share_param.arg0_pool_name = "pool-a"
 create_share_param.arg1_project_name = "share-project"
-create_share_param.arg2_share_name = "share5"
+create_share_param.arg2_share_name = "share1"
 create_share_param.arg3_share_options = new_share_option
 create_share_param.arg4_share_permissions = [new_share_permission] ##Requires []
 
